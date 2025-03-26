@@ -1,8 +1,0 @@
-SELECT Pass_in_trip.id,\
-	Pass_in_trip.trip,\
-	Pass_in_trip.passenger,\
-	Pass_in_trip.place,\
-	Passenger.name\
-FROM Pass_in_trip\
-	JOIN Passenger ON Pass_in_trip.passenger = Passenger.id\
-WHERE Pass_in_trip.trip = 7771;}
